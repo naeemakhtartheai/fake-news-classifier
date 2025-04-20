@@ -1,23 +1,16 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import NewsChecker from './components/NewsChecker';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="App" style={{ textAlign: 'center', padding: '20px' }}>
+      <img
+        src="/fake-vs-real.png"
+        alt="Fake vs Real Logo"
+        style={{ width: '150px', marginBottom: '10px' }}
+      />
+      <h1>📰 Fake News Detector</h1>
+      <NewsChecker />
     </div>
   );
 }
