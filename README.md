@@ -14,9 +14,7 @@ This project is a **Fake News Classification** system built using **Flask** for 
 - **Model**: Scikit-learn, Pickle (for model serialization)
 - **Vectorizer**: TF-IDF Vectorizer (for text preprocessing)
 
-## Project Structure
 
-fake-news-classifier/ ├── backend/ # Flask backend │ ├── model/ # Model and vectorizer files │ ├── app.py # Flask API file │ ├── requirements.txt # Backend dependencies │ └── .gitignore # Git ignore for backend files │ ├── frontend/ # React frontend │ ├── public/ # Public assets │ ├── src/ # React components and source code │ ├── package.json # Frontend dependencies │ └── .gitignore # Git ignore for frontend files │ └── README.md # Project documentation
 
 
 
@@ -27,5 +25,6 @@ fake-news-classifier/ ├── backend/ # Flask backend │ ├── model/ # 
 1. Clone the repository:
    ```bash
    git clone https://github.com/naeemakhtartheai/fake-news-classifier.git
-   cd fake-news-classifier/backend
+   cd fake-news-classifier
+   
 
